@@ -46,7 +46,6 @@
     margin-left: 200px;
 }
 .social-icons {
-    margin-left: 150px;
     display: flex;
     flex-direction: row;
     gap: 10px;
