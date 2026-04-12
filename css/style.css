@@ -1,0 +1,86 @@
+/*section hero image*/
+.hero{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    background-image: url(../image/doli1.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.card{
+    min-width: 200px;
+    font-size: 14px;
+}
+
+.card-img-top{
+    height: 150px;
+    object-fit: cover;
+}
+.card img{
+    width: 100%;
+    height: 140px;
+    object-fit: cover;
+}
+.card:hover{
+    transform: translateY(50px);
+    box-shadow: 0 5px 20px
+    rgba(0, 0, 0, 0, 2);
+}
+
+.carousel-item img{
+    height: 400px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.hero-about{
+    height: 400px;
+    background-image: url("../image/A.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.text-end{
+    margin-left: 200px;
+}
+.social-icons {
+    margin-left: 150px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.social-icons img {
+    width: 28px;
+
+}
+
+.social-icons img:hover {
+    transform: scale(1.15);
+}
+
+.tete{
+    background-image: url(../image/hist1.png);
+    background-size: cover;
+    background-position: center;
+}
+form .form-control {
+    background-color: #f0f4ff; /* bleu très clair */
+    border: 1px solid #98b5ec; /* bordure bleue */
+    color: #000;
+}
+
+form .form-control:focus {
+    background-color: #e2e9ff;
+    border-color: #1a73e8;
+    box-shadow: 0 0 5px rgba(130, 166, 214, 0.4);
+}
+
+.contact-card {
+    background: #eef5ff;  /* bleu très clair */
+    padding: 20px;
+    border-radius: 12px;
+    border: 1px solid #c9d8ff;
+}
